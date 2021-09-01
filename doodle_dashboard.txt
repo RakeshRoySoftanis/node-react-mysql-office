@@ -1,0 +1,17 @@
+Team
+==
+1.Show Resume- Short view - Done
+2. show resume detail view - Not done- 4hrs
+3. List, Filter, search and Pagination - Done
+4. Create team all steps -3days
+5. Manage Team - 4Hrs
+6. Cost calculator - 1Days
+7. Talents Pool - 4Hrs
+8. Ask for talents and Manage mettings - 2Days
+9. Admin- Sign up
+10. Invoice and Payment -2 Day
+11. Mange employee - 2Days
+12. My profile -2hrs
+14. Notifications -2Days
+
+7th September 2021 

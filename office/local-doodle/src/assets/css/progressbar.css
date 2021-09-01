@@ -1,0 +1,185 @@
+.progressbarDiv {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#progress_form {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#progress_form fieldset {
+    border: 0 none;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative;
+    float: left;
+}
+
+#progress_form fieldset input {
+    display: none;
+}
+
+.finish {
+    text-align: center
+}
+
+#progress_form fieldset:not(:first-of-type) {
+    display: none
+}
+
+#progress_form .previous-step,
+.next-step {
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    height: 42px;
+    padding: 0 8px;
+    margin-left: 5px;
+}
+
+.form,
+.previous-step {
+    background: #000;
+}
+
+.form,
+.next-step {
+    background: #F48039;
+}
+
+#progress_form .previous-step:hover,
+#progress_form .previous-step:focus {
+    background-color: #000000;
+}
+
+#progress_form .next-step:hover,
+#progress_form .next-step:focus {
+    background-color: #F48039
+}
+
+.text {
+    color: #F48039;
+    font-weight: normal
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    /* overflow: hidden;     */
+    float: left;
+    width: 100%;
+}
+
+#progressbar .active {
+    color: #000000;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #BBBBBB;
+}
+
+#progressbar #step1:before {
+    content: ""
+}
+
+#progressbar #step2:before {
+    content: ""
+}
+
+#progressbar #step3:before {
+    content: ""
+}
+
+#progressbar #step4:before {
+    content: ""
+}
+
+#progressbar li:before {
+    width: 14px;
+    height: 14px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    /* background: lightgray; */
+    border-radius: 50%;
+    padding: 2px;
+    position: absolute;
+    left: 50%;
+    top: 45px;
+    transform: translateX(-50%);
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #F48039
+}
+
+.progress {
+    height: 2px;
+    background: #ddd;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    background-color: #F48039;
+}
+
+.progress .progress-bar {
+    width: 13% !important;
+}
+
+#progressbar .active.done {
+    color: #F48039;
+}
+
+#progressbar li.active.done:before,
+#progressbar li.active:after {
+    background: url(../images/active_check.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#progressbar li.active.done:before {
+    width: 25px;
+    height: 25px;
+    top: 40px;
+    border: 2px solid #f7f7f7;
+}
+
+.progress.Review .progress-bar {
+    width: 38% !important;
+}
